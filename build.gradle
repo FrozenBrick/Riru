@@ -8,9 +8,6 @@ buildscript {
     repositories {
         mavenCentral()
     }
-    dependencies {
-        classpath 'org.eclipse.jgit:org.eclipse.jgit:5.10.0.202012080955-r'
-    }
 }
 
 plugins {
@@ -27,6 +24,7 @@ idea.module {
 
 ext {
     minSdkVersion = 23
+    compileSdkVersion = 33
     targetSdkVersion = 33
     buildToolsVersion = "33.0.0"
 
